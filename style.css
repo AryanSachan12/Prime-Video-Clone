@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+/*GENERAL*/
+
+.HOVER:hover {
+    background-color: #222f3d;
+}
+
+.FLEX {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*NAVBAR*/
+
+.navbar {
+    height: 56px;
+    background-color: #00050d;
+    color: #aaaaaa;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 320px;
+}
+
+.navbar .logo {
+    font-size: 1.45rem;
+    color: white;
+}
+
+.about-section li {
+    display: inline-block;
+    padding: 0 16px;
+    height: 56px;
+    line-height: 56px;
+}
+
+.search-icon {
+    width: 60px;
+    height: 56px;
+}
+
+.fa-magnifying-glass {
+    font-size: 1.5rem;
+}
+
+.try-for-free {
+    width: 130px;
+    height: 100%;
+}
+
+.lang {
+    height: 100%;
+    width: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-logo-wrapper {
+    width: 76px;
+    height: 100%;
+}
+
+.user-logo {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: rgba(69, 69, 79, 0.945);
+}
+
+.general-text {
+    font-size: 1.15rem;
+}
+
+/*PANELS*/
+
+.panel {
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    padding: 50px;
+}
+
+.panel h1 {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 100;
+}
+
+.panel p {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 35px;
+}
+
+.panel button {
+    background-color: #0081ad;
+    border: none;
+    border-radius: 2px;
+    height: 48px;
+    width: 280px;
+    color: white;
+    font: bolder;
+    font-weight: 700;
+    font-size: 0.95rem;
+    margin-top: 10px;
+}
+
+.panel button:hover {
+    background-color: #00a0d6;
+}
+
+.first-panel {
+    background-image: url(assets/landing-image.jpg);
+}
+
+.second-panel {
+    background-image: url(assets/2nd\ image.jpg);
+}
+
+.third-panel {
+    width: 100%;
+    height: 85vh;
+    padding: 25px;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.third-panel-text {
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.third-panel-common {
+    width: 50%;
+}
+
+.third-panel h1 {
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+.third-panel p {
+    font-size: 1.5rem;
+    margin-top: 35px;
+    font-weight: 100;
+}
+
+.ott-platforms {
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    gap: 0.5rem;
+    padding: 0 55px;
+}
+
+.ott-platforms-panels:hover {
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.ott-platforms-panels {
+    overflow: hidden;
+    max-width: 256px;
+}
+
+.ott-platforms-panels img {
+    width: 100%;
+    height: 100%;
+}
+
+/*Fourth panel*/
+
+.fourth-panel {
+    background-image: url(assets/fire_stick.jpg);
+    display: flex;
+    height: 70vh;
+}
+
+.fourth-panel-div {
+    width: 50%;
+}
+
+/*footer*/
+
+.footer {
+    width: 100%;
+    height: 15vh;
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link p {
+    display: inline;
+    color: #0f79af;
+    margin-left: 10px;
+}
+
+.copyright {
+    margin-top: 10px;
+    color: #949494;
+}
